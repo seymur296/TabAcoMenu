@@ -1,0 +1,35 @@
+#accardion {
+    button {
+        width: 100%;
+        padding: 15px;
+        background-color: brown;
+        color: white;
+        font-weight: bold;
+    }
+    p {
+        display: none;
+    }
+}
+
+
+#tabMenu {
+    .tab-top {
+        button {
+            background: goldenrod;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+        }
+    }
+    .tab-content {
+        margin: 10px 0;
+        p {
+            display: none;
+            &:first-child {
+                color: red;
+                display: block;
+            }
+        }
+    }
+}
+
